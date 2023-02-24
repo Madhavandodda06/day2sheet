@@ -1,0 +1,10 @@
+def ways(n):
+    if n<=1:
+        return n
+    return ways(n-1)+ways(n-2)
+def countways(s):
+    return ways(steps+1)
+
+steps=int(input("enter the number"))
+print("number of ways=")
+print(countways(steps))
