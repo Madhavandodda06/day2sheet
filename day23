@@ -1,5 +1,3 @@
-# Python3 code to demonstrate
-# to count words in string
 t=input("enter the sentence")
 print ("The original string is : " + t)
 res = len(t.split())
